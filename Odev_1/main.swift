@@ -34,7 +34,7 @@ for i in 0 ..< 1000000
         disToplam += 1
     }
 }
-sonuc = icToplam / disToplam
+sonuc = disToplam / icToplam 
 println("İçindekilerin Toplamı: \(icToplam)")
-println("Toplam: \(disToplam)")
+println("Dıştakilerin Toplamı: \(disToplam)")
 println("İçindekilerin Toplama Oranı: \(sonuc)")
